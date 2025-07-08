@@ -1586,7 +1586,6 @@ export default function AdminNewsCrudScreen() {
 
 
 
-  },
   galleryItemContainer: {
     marginRight: 15,
     position: 'relative',
