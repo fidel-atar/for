@@ -281,6 +281,7 @@ const AdminNewsCrudScreen = ({ navigation }) => {
             placeholder="Enter news title"
           />
           {errors.title && <Text style={styles.errorText}>{errors.title}</Text>}
+          }
 
           <Text style={styles.inputLabel}>Author *</Text>
           <TextInput
@@ -290,6 +291,7 @@ const AdminNewsCrudScreen = ({ navigation }) => {
             placeholder="Enter author name"
           />
           {errors.author && <Text style={styles.errorText}>{errors.author}</Text>}
+          }
 
           <View style={styles.rowContainer}>
             <View style={styles.column}>
@@ -306,6 +308,7 @@ const AdminNewsCrudScreen = ({ navigation }) => {
                 </Picker>
               </View>
               {errors.category_id && <Text style={styles.errorText}>{errors.category_id}</Text>}
+              }
             </View>
           </View>
 
@@ -368,6 +371,7 @@ const AdminNewsCrudScreen = ({ navigation }) => {
                 textAlignVertical="top"
               />
               {errors.content && <Text style={styles.errorText}>{errors.content}</Text>}
+              }
             </>
           ) : (
             <View style={styles.contentPreview}>
